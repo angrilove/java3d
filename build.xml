@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf8"?>
+<project name="Java3D" default="compile" basedir=".">
+
+	<property name="src" value="."></property>
+	<property name="build" value="bin"></property>
+	<property name="dist" value="dist"></property>
+
+	<target name="init">
+		<mkdir dir="${build}"></mkdir>
+	</target>
+
+	<target name="compile" depends="init">
+		<!-- Destination dir. -->
+		<javac srcdir="${src}" destdir="${build}" encoding="utf8"
+				includeantruntime="false"></javac>
+	</target>
+
+	<target name="dist" depends="compile"></target>
+
+	<target name="clean"></target>
+</project>
