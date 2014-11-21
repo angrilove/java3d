@@ -1,4 +1,6 @@
 
+package alpha.j3d;
+
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;

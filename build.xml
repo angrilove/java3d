@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <project name="Java3D" default="compile" basedir=".">
 
-	<property name="src" value="."></property>
+	<property name="src" value="main"></property>
 	<property name="build" value="bin"></property>
 	<property name="dist" value="dist"></property>
 
